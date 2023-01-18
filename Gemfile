@@ -71,4 +71,8 @@ group :test do
   gem "webdrivers"
 end
 
+# Save passwords in a different file
 gem "dotenv-rails", "~> 2.8"
+
+# rubocop
+gem 'rubocop', '>= 1.0', '< 2.0'
